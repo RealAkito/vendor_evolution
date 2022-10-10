@@ -41,5 +41,5 @@ k=$(expr $i - 1)
 	echo >> $Changelog;
 done
 
-cp $Changelog $OUT_DIR/target/product/$DEVICE/system/etc/$Changelog
-cp $Changelog $OUT_DIR/target/product/$DEVICE/
+cp vendor/evolution/Changelog.txt $OUT_DIR/target/product/$DEVICE/system/etc/$Changelog
+cp vendor/evolution/Changelog.txt $OUT_DIR/target/product/$DEVICE/
